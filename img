@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8"/>
+        <title>Is the meta conteining title</title>
+
+        <h1>Hello!</h1>
+  </head>
+    <body>
+
+    <picture>
+       <source media="(min-width: 1600px)"
+       srcset="c:\Users\Seb\Downloads\preject.png-1600.webp"/>
+       <source media="(min-width:640px)"
+       srcset="c:\Users\Seb\Downloads\preject.png-640.webp"/>
+       <source type="image/webp">
+       <source media="(min-width:320px)"/>
+       <img src="c:\Users\Seb\Downloads\preject.png" width="250" height="230" alt="alta imagine">
+    </picture>
+
+     </body>
+
+</html>
